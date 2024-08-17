@@ -22,12 +22,46 @@ body{
 }
 
 #my-photo{
-    height: 35vh;
     border-radius: 50rem;
+    margin-left: 4rem;
 }
 
 #intro{
     height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#intro-svgs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro-svg{
+    height: 30px;
+}
+
+#instagram-svg{
+    filter: invert(100%);
+}
+
+#linkedin-svg{
+    filter: invert(100%);
+}
+
+#intro-text > h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+#intro-text > p{
+    font-weight: bold;
+    color: #DBEAFE;
+}
+
+#intro-text{
+    margin-right: 4rem;
 }
 
 .container {
@@ -46,12 +80,20 @@ body{
     .container {
       max-width: 1280px;
     }
+
+    #my-photo{
+        height: 500px;
+    }
   }
   
   /* xl */
   @media (max-width: 1280px) {
     .container {
       max-width: 1024px;
+    }
+
+    #my-photo{
+        height: 400px;
     }
   }
   
@@ -60,12 +102,20 @@ body{
     .container {
       max-width: 768px;
     }
+
+    #my-photo{
+        height: 300px;
+    }
   }
   
   /* md */
   @media (max-width: 768px) {
     .container {
       max-width: 640px;
+    }
+
+    #my-photo{
+        height: 200px;
     }
   }
   
@@ -74,11 +124,19 @@ body{
     .container {
       max-width: 475px;
     }
+
+    #my-photo{
+        height: 100px;
+    }
   }
   
   /* xs */
   @media (max-width: 475px) {
     .container {
       width: 100%;
+    }
+
+    #my-photo{
+        height: 50px;
     }
   }
