@@ -21,6 +21,14 @@ body{
     font-weight: bold;
 }
 
+#my-photo{
+    height: 35vh;
+    border-radius: 50rem;
+}
+
+#intro{
+    height: 70vh;
+}
 
 .container {
     max-width: 1536px;
