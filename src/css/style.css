@@ -4,6 +4,8 @@ body{
     color: white;
     margin: 0;
     padding: 0;
+    gap: 0;
+    font-size: 0;
 }
 
 #nav > ul{
@@ -19,6 +21,8 @@ body{
     display: flex;
     justify-content: space-between;
     font-weight: bold;
+    margin-bottom: none;
+    height: 3vh;
 }
 
 #my-photo{
@@ -27,10 +31,11 @@ body{
 }
 
 #intro{
-    height: 70vh;
+    height: 87vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-top: none;
 }
 
 #intro-svgs{
@@ -73,6 +78,7 @@ body{
     border: 1px red solid;
     padding: 1rem;
     overflow: hidden;
+    font-size: 1rem;
   }
   
   /* 2xl */
