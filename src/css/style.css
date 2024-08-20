@@ -24,34 +24,20 @@ body{
     margin-bottom: none;
     height: 3vh;
     position: sticky;
+    top: 0;
+    background-color: #212121;
 }
 
 #my-photo{
   border-radius: 50rem;
-  /* margin-left: 4rem; */
-  position: sticky;
-  margin-top: calc((187vh / 4) - 200px);
-  top: 0;
+  margin-left: 4rem;
 }
-
-#photo-container{
-  height: 187vh;
-  /* border: cyan 1px solid; */
-  justify-content: center;
-  display: flex;
-  /* align-items:center; */
-  grid-row: 1/3;
-  grid-column: 1/2;
-}
-
 
 #intro{
-  height: 187vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  height: 87vh;
+  display: flex;
   align-items: center;
-  margin-top: none;
+  justify-content: space-between;
 }
 
 #intro-svgs{
@@ -64,26 +50,26 @@ body{
 }
 
 #instagram-svg{
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 #linkedin-svg{
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 #intro-text > h1{
-    font-size: 3rem;
-    margin-bottom: 0;
+  font-size: 3rem;
+  margin-bottom: 0;
 }
 
 #intro-text > p{
-    font-weight: bold;
-    color: #DBEAFE;
+  font-weight: bold;
+  color: #DBEAFE;
 }
 
 #intro-text{
-    margin-left: 4rem;
-    padding: 1rem;
+  margin-right: 4rem;
+  padding: 1rem;
 }
 
 .container {
