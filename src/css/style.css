@@ -51,10 +51,12 @@ body{
 
 #instagram-svg{
   filter: invert(100%);
+  z-index: -1;
 }
 
 #linkedin-svg{
   filter: invert(100%);
+  z-index: -1;
 }
 
 #intro-text > h1{
