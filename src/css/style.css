@@ -111,6 +111,11 @@ body{
 .project-card{
   /* padding: 1rem; */
   place-self: center;
+  border-radius: 1rem;
+}
+
+.project-card:hover{
+  animation: fadeIn-blueBG .5s ease-out 0s 1 forwards;
 }
 
 #calculusCalc-logo{
@@ -151,7 +156,8 @@ body{
 
 .explore-arrow{
   width: 40px;
-  filter: invert(100%);
+  /* filter: invert(100%); */
+ fill: white;
 }
 
 .card-title{
@@ -234,4 +240,12 @@ body{
     #my-photo{
         height: 50px;
     }
+  }
+
+  @keyframes fadeIn-blueBG {
+    0%{
+      background-color: none;
+    }
+
+    100%{background-color: #3B82F6;}
   }
