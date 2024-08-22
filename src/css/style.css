@@ -156,8 +156,6 @@ body{
 
 .explore-arrow{
   width: 40px;
-  /* filter: invert(100%); */
- fill: white;
 }
 
 .card-title{
