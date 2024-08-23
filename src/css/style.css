@@ -122,9 +122,20 @@ a{
 }
 
 .project-card:hover{
-  background-color: #3B82F6;
   transform: scale(1.05);
-  transition: .5 ease-out;
+  border: none;
+  .card-top{
+    background-color: #3B82F6;
+    border: none;
+    transition: .5 ease-out;
+  }
+  .card-bottom{
+    border: none;
+    background-color: #2563eb;
+    transition: .5 ease-out;
+  }
+  /* animation: card-hover .5s ease-out 0s 1 forwards normal; */
+  /* transition: .5 ease-out; */
 }
 
 #calculusCalc-logo{
@@ -139,6 +150,7 @@ a{
   width: 450px;
   padding: 1.2rem;
   border-bottom: none;
+  transition: .5 ease-out;
 }
 
 .card-bottom{
@@ -153,6 +165,7 @@ a{
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
+  transition: .5 ease-out;
 }
 
 .card-top > h1{
@@ -248,3 +261,30 @@ a{
         height: 50px;
     }
   }
+
+/* @keyframes card-hover {
+  0%{
+    .project-card{
+      transform: scale(1);
+    }
+    .card-top{
+      border: 1px #DBEAFE solid;
+    }
+    .card-bottom{
+      border: 1px #DBEAFE solid;
+      background-color: none;
+    }
+  }
+  100%{
+    .project-card{
+      transform: scale(1.05);
+    }
+    .card-top{
+      border: none;
+    }
+    .card-bottom{
+      border: none;
+      background-color: #2563eb;
+    }
+  }
+} */
