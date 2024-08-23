@@ -134,8 +134,6 @@ a{
     background-color: #2563eb;
     transition: .5 ease-out;
   }
-  /* animation: card-hover .5s ease-out 0s 1 forwards normal; */
-  /* transition: .5 ease-out; */
 }
 
 #calculusCalc-logo{
@@ -261,30 +259,3 @@ a{
         height: 50px;
     }
   }
-
-/* @keyframes card-hover {
-  0%{
-    .project-card{
-      transform: scale(1);
-    }
-    .card-top{
-      border: 1px #DBEAFE solid;
-    }
-    .card-bottom{
-      border: 1px #DBEAFE solid;
-      background-color: none;
-    }
-  }
-  100%{
-    .project-card{
-      transform: scale(1.05);
-    }
-    .card-top{
-      border: none;
-    }
-    .card-bottom{
-      border: none;
-      background-color: #2563eb;
-    }
-  }
-} */
