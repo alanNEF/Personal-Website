@@ -8,6 +8,16 @@ body{
   font-size: 0;
 }
 
+.type{
+  border-right: 2px solid white;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+  typing 2s steps(12),
+  cursor .4s step-end infinite alternate;
+}
+
 a{
   text-decoration: none;
   color: white;
@@ -257,3 +267,15 @@ a{
         height: 50px;
     }
   }
+
+@keyframes cursor {
+  50%{
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
