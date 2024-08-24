@@ -75,9 +75,13 @@ a{
   filter: invert(100%);
 }
 
-#intro-text > h1{
+.type-container{
+  display: inline-block;
+}
+
+.type-container > h1{
+  margin: 0;
   font-size: 3rem;
-  margin-bottom: 0;
 }
 
 #intro-text > p{
