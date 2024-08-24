@@ -13,7 +13,6 @@ a{
   color: white;
   margin: 0;
   padding: 0;
-  z-index: -1;
 }
 
 #nav > ul{
@@ -34,6 +33,7 @@ a{
   position: sticky;
   top: 0;
   background-color: #212121;
+  z-index: 1;
 }
 
 #my-photo{
@@ -59,12 +59,10 @@ a{
 
 #instagram-svg{
   filter: invert(100%);
-  z-index: -1;
 }
 
 #linkedin-svg{
   filter: invert(100%);
-  z-index: -1;
 }
 
 #intro-text > h1{
