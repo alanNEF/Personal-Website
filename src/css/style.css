@@ -237,7 +237,8 @@ input::placeholder{
 }
 
 input:focus, textarea:focus{
-  border: 1px #3B82F6 solid;
+  /* border: 1px #3B82F6 solid; */
+  border-color: #3B82F6;
   outline: none;
   transition: ease-out 1s;
 }
@@ -251,7 +252,8 @@ input:focus, textarea:focus{
 .slider-wrapper {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
+  margin-top: 0;
 }
 
 .slider{
@@ -265,14 +267,16 @@ input:focus, textarea:focus{
 
 input{
   color: white;
-  border: 1px white solid;
+  border-bottom: 1px white solid;
   background-color: transparent;
+  outline: none;
   width: 200px;
   height: 30px;
-  border-radius: 1rem;
-  padding-left: .8rem;
   padding-right: .8rem;
   transition: ease-out 1s;
+  border-right: none;
+  border-left: none;
+  border-top: none; 
 }
 
 textarea{
@@ -293,6 +297,8 @@ textarea{
 #submit{
   width: 100px;
   transition: ease-out .7s;
+  border: 1px solid white;
+  border-radius: 1rem;
 }
 
 .slider div {
@@ -317,6 +323,11 @@ textarea{
 #submit:active{
   transform: scale(1.2);
   transition: ease-out .7s;
+}
+
+#greeting{
+  display: grid;
+  justify-content: baseline;
 }
   
   /* 2xl */
