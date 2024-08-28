@@ -337,7 +337,7 @@ input:focus, textarea:focus{
   display: flex;
   align-items: center;
   gap: 4rem;
-  transition-delay:200ms ;
+  /* transition-delay:200ms; */
 }
 
 .slider-wrapper {
@@ -432,7 +432,7 @@ textarea{
 #greeting{
   display: grid;
   justify-content: baseline;
-  transition-delay: 100ms;
+  /* transition-delay: 100ms; */
 }
   
   /* 2xl */
