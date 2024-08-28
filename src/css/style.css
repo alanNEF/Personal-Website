@@ -478,8 +478,24 @@ textarea{
     }
 
     .my-photo{
-        height: 300px;
+      height: 300px;
     }
+
+    #contact-body{
+      flex-direction: column;
+      flex-flow: column-reverse;
+      justify-content: none;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
+  }
+
+  #contact-form{
+    margin-right: 14rem;
+  }
+
+  #greeting{
+    margin-right: 8rem;
   }
   
   /* md */
@@ -492,11 +508,28 @@ textarea{
       height: 200px;
     }
 
+    #contact-body{
+      flex-direction: column;
+      flex-flow: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
+      }
     #projects{
       grid-template-areas:
       "title"
       "card1" 
       "card2";
+    }
+
+    #contact-body{
+      flex-direction: column;
+      flex-flow: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
     }
   }
   
@@ -508,6 +541,15 @@ textarea{
 
     #my-photo{
         height: 100px;
+    }
+
+    #contact-body{
+      flex-direction: column;
+      flex-flow: column-reverse;
+      justify-content: none;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
     }
   }
   
