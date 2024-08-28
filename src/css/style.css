@@ -120,16 +120,7 @@ li > a:focus::after{
   z-index: 1;
 }
 
-@keyframes underline {
-  0%{
-    border-bottom: none;
-  }
-  100%{
-    border-bottom: 1px #2563eb solid;
-  }
-}
-
-#my-photo{
+.my-photo{
   border-radius: 50rem;
   margin-left: 4rem;
 }
@@ -197,6 +188,10 @@ li > a:focus::after{
 
 #about > p{
   color: #DBEAFE;
+}
+
+#my-photo2{
+
 }
 
 .container {
@@ -441,7 +436,7 @@ textarea{
       max-width: 1300px;
     }
 
-    #my-photo{
+    .my-photo{
       height: 500px;
     }
   }
@@ -451,7 +446,7 @@ textarea{
       max-width: 1280px;
     }
 
-    #my-photo{
+  .container{
         height: 400px;
     }
   }
@@ -462,7 +457,7 @@ textarea{
       max-width: 1024px;
     }
 
-    #my-photo{
+    .my-photo{
         height: 400px;
     }
   }
@@ -486,7 +481,7 @@ textarea{
       grid-column: 1/3;
     }
 
-    #my-photo{
+    .my-photo{
         height: 300px;
     }
   }
@@ -497,7 +492,7 @@ textarea{
       max-width: 640px;
     }
 
-    #my-photo{
+    .my-photo{
       height: 200px;
     }
 
@@ -526,8 +521,36 @@ textarea{
       width: 100%;
     }
 
+    .my-photo{
+      height: 150px;
+    }
+
+    #intro{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #intro-text{
+      font-size: 80%;
+      margin-right: 0;
+    }
     #my-photo{
-        height: 50px;
+      margin-left: 0;
+    }
+
+    #about-section{
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    #about{
+      font-size: 80%;
+    }
+    #my-photo2{
+      height: 250px;
+      margin: 0;
+      margin-top: 1rem;
     }
   }
 
