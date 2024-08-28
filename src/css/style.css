@@ -1,6 +1,7 @@
 html{
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body{
@@ -356,6 +357,7 @@ input:focus, textarea:focus{
 }
 
 #title{
+  margin-top: 5rem;
   grid-area: title;
 }
 
