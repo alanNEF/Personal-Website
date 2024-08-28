@@ -257,7 +257,7 @@ li > a:focus::after{
   width: 450px;
   padding: 1.2rem;
   border-bottom: none;
-  transition: .5 ease-out;
+  transition: .5s ease-out;
   height: 120px;
 }
 
@@ -273,7 +273,7 @@ li > a:focus::after{
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
-  transition: .5 ease-out;
+  transition: .5s ease-out;
 }
 
 .card-top > h1{
@@ -552,6 +552,24 @@ textarea{
       margin: 0;
       margin-top: 1rem;
     }
+    /* #projects{
+      font-size: 80%;
+    } */
+    
+  .card-top>h1{
+    font-size: 80%;
+  }
+
+    .card-top{
+      margin-top: 1.8rem;
+      width: 300px;
+    }
+    .card-bottom{
+      width: 300px;
+    }
+    /* .card-title{
+      font-size: 80%;
+    } */
   }
 
 @keyframes cursor {
