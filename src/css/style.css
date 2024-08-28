@@ -190,10 +190,6 @@ li > a:focus::after{
   color: #DBEAFE;
 }
 
-#my-photo2{
-
-}
-
 .container {
   max-width: 1536px;
   margin-left: auto;
@@ -295,7 +291,7 @@ li > a:focus::after{
 }
 
 #contact-me{
-  height: 87vh;
+  height: 100vh;
   display: flex;
   margin-top: 5rem;
   align-content: center;
@@ -535,7 +531,7 @@ textarea{
       font-size: 80%;
       margin-right: 0;
     }
-    #my-photo{
+    .my-photo{
       margin-left: 0;
     }
 
@@ -544,21 +540,15 @@ textarea{
       justify-content: center;
     }
 
-    #about{
-      font-size: 80%;
-    }
     #my-photo2{
       height: 250px;
       margin: 0;
       margin-top: 1rem;
     }
-    /* #projects{
-      font-size: 80%;
-    } */
     
-  .card-top>h1{
-    font-size: 80%;
-  }
+    .card-top>h1{
+      font-size: 80%;
+    }
 
     .card-top{
       margin-top: 1.8rem;
@@ -567,9 +557,47 @@ textarea{
     .card-bottom{
       width: 300px;
     }
-    /* .card-title{
+
+    #submit{
+      margin-bottom: 2rem;
+    }
+
+    #nav{
+      height: 3.5vh;
+    }
+
+    #contact-body{
+      flex-direction: column;
+      flex-flow: column-reverse;
+      justify-content: center;
+      align-items: center;
+      margin-left: 0;
+      padding: 0;
+    }
+
+    #contact-me{
+      overflow: hidden;
+    }
+
+    #greeting{
       font-size: 80%;
-    } */
+      margin-left: 0;
+      align-self: center;
+      margin-right: 14rem;
+      padding: 0;
+    }
+
+    #contact-form{
+      margin-right: 14rem;
+    }
+
+    textarea{
+      width: 300px;
+    }
+
+    #hello{
+      width: 300px;
+    }
   }
 
 @keyframes cursor {
