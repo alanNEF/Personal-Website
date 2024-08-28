@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./app.js"></script>
 </head>
 <body>
     <div id="nav" class="container">
@@ -43,15 +44,15 @@
         </div>
     </div>
     <div class="container" id="about-section">
-        <div id="about">
+        <div id="about" class="hidden">
             <h1 id="about-me">About Me</h1>
             <p id="paragraph-am">Alan Achilles is a dedicated Computer Science student at the University of Massachusetts Amherst, specializing in machine learning and web development. Passionate about leveraging technology to drive innovation, Alan is actively seeking opportunities for collaboration on projects, internships, and research. If you’re interested in collaborating or have opportunities to discuss, please reach out—Alan is eager to contribute, grow, and connect with others in the field. </p>
         </div>
-        <img src="../assets/imgs/DSC03989.jpg" id="my-photo">
+        <img src="../assets/imgs/DSC03989.jpg" class="hidden" id="my-photo">
     </div>
-    <div class="container" id="projects">
-        <h1>Projects</h1>
-        <div id="calculusCalc" class="project-card">
+    <div class="container hidden" id="projects">
+        <h1 id="title" class="hidden">Projects</h1>
+        <div id="calculusCalc" class="project-card hidden">
             <a href="https://github.com/alanNEF/CalculusCalc">
                 <div class="card-top">
                     <div class="card-title">
@@ -66,7 +67,7 @@
                 </div>
             </a>
         </div>
-        <div class="project-card">
+        <div id="personal-website" class="project-card hidden">
             <a href="https://github.com/alanNEF/Personal-Website">
                 <div class="card-top">
                     <div class="card-title">
@@ -82,9 +83,9 @@
             </a>
         </div>
     </div>
-    <div class="container" id="contact-me">
-        <h1>Contact Me</h1>
-        <div id="contact-body">
+    <div class="container hidden" id="contact-me">
+        <h1 class="hidden">Contact Me</h1>
+        <div id="contact-body" class="hidden">
             <form action="" id="contact-form">
                 <div class="form-sections">
                     <input type="text" name="name" id="name" placeholder="Your Name">
@@ -98,7 +99,7 @@
                 </div>
                 <input type="submit" value="Connect" id="submit">
             </form>
-            <div id="greeting">
+            <div id="greeting" class="hidden">
                 <h1>Its nice to meet you, feel free to get in touch! &#128075;</h1>
                 <h1 class="slider-wrapper">
                     Lets
