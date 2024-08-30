@@ -442,8 +442,8 @@ textarea{
       max-width: 1280px;
     }
 
-  .container{
-        height: 400px;
+  .my-photo{
+      height: 400px;
     }
   }
   
@@ -496,6 +496,7 @@ textarea{
 
   #greeting{
     margin-right: 8rem;
+  }
   }
   
   /* md */
