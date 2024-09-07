@@ -425,6 +425,10 @@ textarea{
   justify-content: baseline;
   /* transition-delay: 100ms; */
 }
+
+.nav-hamburger{
+  display: none;
+}
   
   /* 2xl */
   @media (min-width:1536px){
