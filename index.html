@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
     <link rel="stylesheet" href="./src/css/style.css">
     <script defer src="./src/app.js"></script>
 </head>
@@ -114,5 +115,25 @@
             </div>
         </div>
     </div>
+     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+    <script>
+        const lenis = new Lenis({
+            infinite:true,
+            duration:3.2,
+            easing: (t) => Math.min(1, 1.001 - Math.pow(2, -1 * t)), 
+        })
+
+        lenis.on('scroll', (e) => {
+            console.log(e)
+        })
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+        
+    </script>
 </body>
 </html>
